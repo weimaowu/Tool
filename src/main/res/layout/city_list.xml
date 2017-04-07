@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <LinearLayout
+        android:background="#4D4D4D"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:id="@+id/list_city"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="40dp">
+            <ImageView
+                android:id="@+id/list_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/list_temp"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+<TextView
+    android:background="#666666"
+    android:layout_width="match_parent"
+    android:layout_height="5dp" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearLayout">
+        <EditText
+            android:id="@+id/map_seek"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:background="#ffff"
+            android:hint="@string/map_seek"
+            android:textSize="16sp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:gravity="bottom"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/ib_traffic"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/map_conmon" />
+            <ImageButton
+                android:id="@+id/ib_loc"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="60dp"
+               android:layout_gravity="center"
+                android:background="@drawable/map_back" />
+        </LinearLayout>
+        <TextView
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+<LinearLayout
+    android:layout_weight="2"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+
+    android:gravity="bottom"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/ib_mode"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/map_exchange1" />
+
+    <ImageButton
+        android:id="@+id/ib_large"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/map_max" />
+
+    <ImageButton
+        android:id="@+id/ib_small"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/map_min"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"/>
+</LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

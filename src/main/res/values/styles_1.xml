@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btn_1" >
+        <item name="android:textSize">24dp</item>
+        <item name="android:background">@drawable/drawable</item>
+    </style>
+<style name="textview_theme">
+    <item name="android:layout_weight">5</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">#292929</item>
+    <item name="android:lineSpacingMultiplier">2</item>
+    <item name="android:textSize">12dp</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+    <style name="btn_2">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/drawable2</item>
+    </style>
+
+    <style name="btn_3">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="textview">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#0D0D0D</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="return_1">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">@drawable/travel_msg_back</item>
+    </style>
+<style name="seek_button">
+<item name="android:textSize">12sp</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@drawable/search_btn</item>
+    <item name="android:scaleType">fitXY</item>
+</style>
+    <style name="popwind">
+        <item name="android:textColor">#ffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#00000000</item>
+
+    </style>
+    <style name="index_iv">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <style name="index_tv2">
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="index_tv1">
+       <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="index_ll">
+
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/boder</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/ac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0.5dp"
+        android:layout_weight="1"
+        style="@style/btn_1"
+        android:text="@string/ac"
+        />
+
+    <Button
+        android:id="@+id/jiajian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0.5dp"
+        android:layout_weight="1"
+        style="@style/btn_1"
+        android:text="@string/jiajian"
+        />
+
+    <Button
+        android:id="@+id/baifen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0.5dp"
+        android:layout_weight="1"
+        style="@style/btn_1"
+        android:text="@string/pre"
+        />
+
+    <Button
+        android:id="@+id/chu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0.5dp"
+        android:layout_weight="1"
+        style="@style/btn_2"
+        android:text="@string/divide"
+        />
+</LinearLayout>

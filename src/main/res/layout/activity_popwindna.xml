@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#00B2EE"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/popwalk"
+            style="@style/popwind"
+            android:textColor="#708090"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:text="@string/walk"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/popbus"
+            style="@style/popwind"
+            android:text="@string/bus"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/popdrive"
+            style="@style/popwind"
+            android:text="@string/drive"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>

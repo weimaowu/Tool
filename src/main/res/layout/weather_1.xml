@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/weather_date_1"
+                android:layout_weight="5"
+                style="@style/textview"
+
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+
+                android:id="@+id/weather_icon_1" />
+
+            <TextView
+                android:layout_weight="3"
+                style="@style/textview"
+                android:layout_marginLeft="10dp"
+
+                android:id="@+id/weather_text_1"
+                />
+            <TextView
+                android:id="@+id/weather_temperature_1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="4.3"
+                style="@style/textview"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/weather_date_2"
+                android:layout_weight="5"
+                style="@style/textview"
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/weather_icon_2" />
+
+            <TextView
+                android:id="@+id/weather_text_2"
+                android:layout_weight="3"
+                style="@style/textview"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:id="@+id/weather_temperature_2"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="4.3"
+                style="@style/textview"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/weather_date_3"
+                android:layout_weight="5"
+                style="@style/textview"
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/weather_icon_3" />
+
+            <TextView
+                android:id="@+id/weather_text_3"
+                android:layout_weight="3"
+
+
+                style="@style/textview"
+                android:layout_marginLeft="10dp"
+
+                />
+
+            <TextView
+                android:layout_weight="4.3"
+                android:id="@+id/weather_temperature_3"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="35dp"
+                style="@style/textview"
+
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30">
+        <TextView
+            android:id="@+id/defeated"
+            android:layout_gravity="center"
+            android:gravity="center"
+          android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:text="☆☆生活指数☆☆"/>
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:layout_height="380dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/mask_1"/>
+                        <TextView
+                            android:id="@+id/air"
+                            style="@style/index_tv1"
+                           />
+                    </LinearLayout>
+
+                    <app.ui.view.AlignTextView
+                        android:id="@+id/air_content"
+                        style="@style/index_tv2"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/comf_1"/>
+                        <app.ui.view.AlignTextView
+                            android:id="@+id/comf"
+                            style="@style/index_tv1"
+                            />
+                    </LinearLayout>
+                    <app.ui.view.AlignTextView
+                        android:id="@+id/comf_content"
+                        style="@style/index_tv2"
+                        android:text=""/></LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/cw"/>
+                        <TextView
+                            android:id="@+id/cw"
+                            style="@style/index_tv1"
+                            />
+                    </LinearLayout>
+                    <app.ui.view.AlignTextView
+                        android:id="@+id/cw_content"
+                        style="@style/index_tv2"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/drsg"/>
+                        <TextView
+                            android:id="@+id/drsg"
+                            style="@style/index_tv1"
+                            />
+                    </LinearLayout>
+                    <app.ui.view.AlignTextView
+                        android:id="@+id/drsg_content"
+                        style="@style/index_tv2"
+                        android:text=""/></LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/flu"/>
+                        <TextView
+                            android:id="@+id/flu"
+                            style="@style/index_tv1"
+                            />
+                    </LinearLayout>
+                    <app.ui.view.AlignTextView
+                        android:id="@+id/flu_content"
+                        style="@style/index_tv2"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/sport"/>
+                        <TextView
+                            android:id="@+id/sport"
+                            style="@style/index_tv1"
+                            />
+                    </LinearLayout>
+                    <app.ui.view.AlignTextView
+                        android:id="@+id/sport_content"
+                        style="@style/index_tv2"
+                        android:text=""/></LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/fish"/>
+                        <TextView
+                            android:id="@+id/fish"
+                            style="@style/index_tv1"
+                            />
+                    </LinearLayout>
+                    <app.ui.view.AlignTextView
+                        android:id="@+id/fish_content"
+                        style="@style/index_tv2"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/index_ll">
+                    <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/index_iv"
+                            android:background="@drawable/uv"/>
+                        <TextView
+                            android:id="@+id/uv"
+                            style="@style/index_tv1"
+                            />
+                    </LinearLayout>
+
+                   <app.ui.view.AlignTextView
+                       android:id="@+id/uv_content"
+                       style="@style/index_tv2"/>
+                    </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
